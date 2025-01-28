@@ -61,11 +61,11 @@ with Listener(on_press=on_press) as listener:
 
 ## Windows Security Exclusion Setup
 
-This project involves running Python code on a Windows system. To ensure that the code runs without interference from Windows Security, follow the instructions in the `WINDOWS_SETUP.md` file to add exclusions in Windows Security.
+This project involves running Python code on a Windows system. To ensure that the code runs without interference from Windows Security, follow the instructions in the `Windows_Setup.md` file to add exclusions in Windows Security.
 
 ### Setup Instructions
 
-1. Follow the detailed setup steps in the `WINDOWS_SETUP.md` file to configure Windows Security.
+1. Follow the detailed setup steps in the `Windows_Setup.md` file to configure Windows Security.
 2. Once the exclusions are added, you can run the Python code without security interference.
 
 ## Legal Disclaimer
