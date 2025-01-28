@@ -28,3 +28,22 @@ Follow these steps to add exclusions in Windows Security to ensure that your Pyt
    - The exclusions will now be added, and your Python code should run without interference from Windows Security.
 
 Once you've completed these steps, you're ready to run your Python code without issues from Windows Security.
+
+## Flowchart for Windows Security Setup for Python Code
+
+```mermaid
+graph TD;
+    A[Open Windows Security] --> B[Click on Virus & Threat Protection];
+    B --> C[Scroll down and click on Manage settings];
+    C --> D[Scroll down and click on Add or remove exclusions];
+    D --> E[Click Yes when prompted];
+    E --> F[Click on Add an exclusion];
+    F --> G[Choose Folder];
+    G --> H[Select the folder where your Python code is stored];
+    H --> I[Click Select Folder];
+    I --> J[Click on Add an exclusion again];
+    J --> K[Choose File];
+    K --> L[Locate and select your Python code file];
+    L --> M[Click Open];
+    M --> N[Exclusions added successfully];
+    N --> O[Run Python code without interference];
